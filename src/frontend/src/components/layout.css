@@ -1,0 +1,31 @@
+.app-shell {
+    display: flex;
+  }
+  .content-area {
+    margin-left: 200px;
+    transition: margin-left 0.2s;
+    width: calc(100% - 200px);
+  }
+  .app-shell .closed + .content-area {
+    margin-left: 60px;
+    width: calc(100% - 60px);
+  }
+  .topbar {
+    height: 56px;
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  .toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+  }
+  .main-content {
+    padding: 1.5rem;
+    background: #1a1a1a;
+    min-height: calc(100vh - 56px);
+  }
+  
