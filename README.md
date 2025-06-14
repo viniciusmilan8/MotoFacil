@@ -88,8 +88,6 @@ npm run dev
 
 ---
 
-## 📈 Fluxo da Entrega
-
 ## 📍 Diagrama de Processo
 ![](docs/diagrama-arquitetura.png)
 
