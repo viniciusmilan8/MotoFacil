@@ -49,3 +49,39 @@ Atualmente focado no fluxo de criação de entregas e cálculo automático de ta
 
 ```bash
 docker-compose up -d
+```
+
+## 📌 Backend (API Node.js)
+
+```bash
+cd src/api
+npm install
+cp .env.example .env
+# Edite o arquivo .env com suas configurações locais
+npm run dev
+# API rodando em: http://localhost:3000
+```
+
+### Exemplo de conteúdo do .env:
+
+```bash
+MONGO_URI=mongodb://admin:admin@localhost:27017/motofacil?authSource=admin
+MONGO_USER=admin
+MONGO_PASS=admin
+PORT=3000
+```
+
+### Popular as tarifas iniciais de entrega:
+
+```bash
+node src/api/scripts/seedTariffSettings.js
+```
+
+## 📌 Frontend (React + Vite)
+
+```bash
+cd ../frontend
+npm install
+npm run dev
+# Frontend rodando em: http://localhost:5173
+```
