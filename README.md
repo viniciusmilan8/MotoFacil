@@ -91,7 +91,7 @@ npm run dev
 ## 📍 Diagrama de Processo
 ![](docs/diagrama-arquitetura.png)
 
-## 📍 Arquitetura da Aplicação
+## 📍 Fluxograma da Aplicação
 ![](docs/diagrama-processo.png)
 
 ## 🎥 Vídeo de Demonstração
