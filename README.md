@@ -85,3 +85,19 @@ npm install
 npm run dev
 # Frontend rodando em: http://localhost:5173
 ```
+
+---
+
+## 📈 Fluxo da Entrega
+
+## 📍 Diagrama de Processo
+![](docs/diagrama-arquitetura.png)
+
+## 📍 Arquitetura da Aplicação
+![](docs/diagrama-processo.png)
+
+## 🎥 Vídeo de Demonstração
+
+Um vídeo mostrando as telas e funcionalidades atuais está disponível no repositório:
+
+📂 docs/Vídeo demonstração - MotoFácil.mkv
