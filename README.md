@@ -88,7 +88,7 @@ npm run dev
 
 ---
 
-## 📍 Diagrama de Processo
+## 📍 Arquitetura da Aplicação
 ![](docs/diagrama-arquitetura.png)
 
 ## 📍 Fluxograma da Aplicação
